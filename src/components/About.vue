@@ -1,5 +1,5 @@
 <template>
-  <h1>This is Blog page.....</h1>
+  <h1>ABOUT </h1>
 </template>
 
 <script>
