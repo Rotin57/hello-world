@@ -5,7 +5,7 @@
       <div class="container">
         <!-- Logo Section -->
         <a class="navbar-brand d-flex align-items-center" href="#">
-          <img src="/src/assets/images/logo-energy-pilates.png" alt="Logo" class="logo-img">
+          <img src="../Lab3/img/logo-energy-pilates.png" alt="Logo" class="logo-img">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -16,10 +16,10 @@
           <!-- Centered Links Section -->
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="/ASM/ChiTiet"><i class="fas fa-newspaper"></i> Bài viết</a>
+              <a class="nav-link active" href="/ASM/Trangchu"><i class="fas fa-newspaper"></i> Trang chủ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-video"></i> Video</a>
+              <a class="nav-link" href="/ASM/ChiTiet"><i class="fas fa-video"></i> Video</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> Giới thiệu</a>
@@ -59,7 +59,41 @@
         </div>
       </div>
     </nav>
-    <section ></section>
+    
+    <section class="container my-5">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="/ASM/ChiTiet">
+              <div class="card mb-3">
+                <img src="../Lab3/img/video1.jpg" class="card-img-top" alt="Video 1">
+                <div class="card-body">
+                  <p class="card-text">Đi xa hơn để trưởng thành hơn</p>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="col-md-4">
+              <a href="/ASM/ChiTiet">
+              <div class="card mb-3">
+                <img src="../Lab3/img/video2.jpg" class="card-img-top" alt="Video 2">
+                <div class="card-body">
+                  <p class="card-text">Chắt tạm lẹ những ngày cuối năm</p>
+                </div>
+              </div></a>
+            </div>
+            <div class="col-md-4">
+              <a href="/ASM/ChiTiet">
+              <div class="card mb-3">
+                <img src="../Lab3/img/video3.jpg" class="card-img-top" alt="Video 3">
+                <div class="card-body">
+                  <p class="card-text">Ước gì ta được trở về tuổi thơ</p>
+                </div>
+              </div>
+              </a>
+            </div>
+      </div>
+    </section>
+    
    
     <footer class="text-center py-4">
       <p>©Copyright by FPT Polytechnic</p>
@@ -131,5 +165,19 @@ export default {
 
 .navbar-nav.ms-auto .nav-link:hover {
   color: #d4af37;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.footer .container p {
+  margin-bottom: 0;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
 }
 </style>
