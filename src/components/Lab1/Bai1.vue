@@ -11,7 +11,7 @@
   
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><i class="fas fa-leaf"></i><img src="/src/assets/images/logo-energy-pilates.png" alt="" width="20%"></a>
+          <a class="navbar-brand" href="#"><i class="fas fa-leaf"></i><img src="../Lab3/img/logo-energy-pilates.png" alt="" width="20%"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,7 +49,7 @@
         <h2 class="text-info mb-3">Về Tôi</h2>
         <div class="card">
           <div class="card-body text-center">
-            <img src="/src/assets/images/avatar.png" alt="" style="width: 50%; border-radius: 50%;">
+            <img src="../Lab3/img/avatar.png" alt="" style="width: 50%; border-radius: 50%;">
             <h5 class="card-title mt-3">Giới Thiệu Bản Thân</h5>
             <p class="card-text">
               SV. :> <br> 
@@ -64,7 +64,7 @@
         <!-- Blog của tôi -->
         <h2 class="text-info mb-3">Blog của tôi</h2>
         <div class="card mb-3">
-          <img src="/src/assets/images/tap-piltes.jpg" class="card-img-top" alt="">
+          <img src="../Lab3/img/tap-piltes.jpg" class="card-img-top" alt="">
           <div class="card-body">
             <h5 class="card-title">Phương pháp tập Pilates giúp phục hồi chấn thương cột sống</h5>
             <p class="card-text">Ngoài việc giúp duy trì vóc dáng, cải thiện sự linh hoạt, độ dẻo dai cho người tập, Pilates giúp cơ bắp và các khớp mọc dẻo dai hơn, kéo giãn hơn...</p>
@@ -74,25 +74,25 @@
         <!-- Bài viết liên quan -->
         <div class="related-articles">
           <div class="d-flex align-items-start mb-3">
-            <img src="/src/assets/images/corevalue.jpg" alt="" width="20%" class="rounded mr-3">
+            <img src="../Lab3/img/corevalue.jpg" alt="" width="20%" class="rounded mr-3">
             <div>
               <p class="mb-1 font-weight-bold">Biết ơn đời, đời sẽ thương ta</p>
             </div>
           </div>
           <div class="d-flex align-items-start mb-3">
-            <img src="/src/assets/images/orange_300x300.jpg" alt="Tác dụng của quả cam" width="20%" class="rounded mr-3">
+            <img src="../Lab3/img/orange_300x300.jpg" alt="Tác dụng của quả cam" width="20%" class="rounded mr-3">
             <div>
               <p class="mb-1 font-weight-bold">9 tác dụng tuyệt vời của quả cam</p>
             </div>
           </div>
           <div class="d-flex align-items-start mb-3">
-            <img src="/src/assets/images/sesameoil_300x300.jpg" width="20%" alt="" class="rounded mr-3">
+            <img src="../Lab3/img/sesameoil_300x300.jpg" width="20%" alt="" class="rounded mr-3">
             <div>
               <p class="mb-1 font-weight-bold">10 công dụng bất ngờ từ dầu dừa</p>
             </div>
           </div>
           <div class="d-flex align-items-start">
-            <img src="/src/assets/images/spinach_300x300.jpg" width="20%" alt="" class="rounded mr-3">
+            <img src="../Lab3/img/spinach_300x300.jpg" width="20%" alt="" class="rounded mr-3">
             <div>
               <p class="mb-1 font-weight-bold">Lợi ích khi ăn rau mỗi ngày</p>
             </div>
